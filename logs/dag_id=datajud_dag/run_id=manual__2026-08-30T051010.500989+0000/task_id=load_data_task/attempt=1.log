@@ -1,0 +1,11 @@
+{"timestamp":"2026-08-30T05:10:18.540063Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-08-30T05:10:18.540706Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/datajud_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-08-30T05:10:18.576597Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.576801Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.576925Z","level":"info","event":"Current task name:load_data_task","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.577008Z","level":"info","event":"Dag name:datajud_dag","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.632390Z","level":"info","event":"Dados carregados com sucesso no banco de dados PostgreSQL!","logger":"root","filename":"load_dados.py","lineno":41}
+{"timestamp":"2026-08-30T05:10:18.633052Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-08-30T05:10:18.646038Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.646180Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-08-30T05:10:18.646392Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_data_task>","logger":"task.stdout"}

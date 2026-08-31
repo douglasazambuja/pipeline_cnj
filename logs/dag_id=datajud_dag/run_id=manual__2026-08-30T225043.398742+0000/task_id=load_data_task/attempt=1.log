@@ -1,0 +1,15 @@
+{"timestamp":"2026-08-30T22:50:46.323038Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-08-30T22:50:46.323827Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/datajud_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-08-30T22:50:46.360006Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.360176Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.360303Z","level":"info","event":"Current task name:load_data_task","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.360381Z","level":"info","event":"Dag name:datajud_dag","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.416591Z","level":"info","event":"Processos carregados: 1 registro(s)","logger":"root","filename":"load_dados.py","lineno":39}
+{"timestamp":"2026-08-30T22:50:46.420202Z","level":"info","event":"Assuntos carregados: 1 registro(s)","logger":"root","filename":"load_dados.py","lineno":55}
+{"timestamp":"2026-08-30T22:50:46.425860Z","level":"info","event":"Movimentos carregados: 60 registro(s)","logger":"root","filename":"load_dados.py","lineno":73}
+{"timestamp":"2026-08-30T22:50:46.431699Z","level":"info","event":"Movimentos Tabelados carregados: 34 registro(s)","logger":"root","filename":"load_dados.py","lineno":90}
+{"timestamp":"2026-08-30T22:50:46.431847Z","level":"info","event":"Dados carregados com sucesso no PostgreSQL!","logger":"root","filename":"load_dados.py","lineno":96}
+{"timestamp":"2026-08-30T22:50:46.432548Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-08-30T22:50:46.446979Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.447117Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-08-30T22:50:46.447300Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_data_task>","logger":"task.stdout"}

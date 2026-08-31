@@ -1,0 +1,12 @@
+{"timestamp":"2026-08-30T21:34:25.735392Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-08-30T21:34:25.736384Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/datajud_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-08-30T21:34:25.795496Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:25.795669Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:25.795834Z","level":"info","event":"Current task name:extract_data_task","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:25.795944Z","level":"info","event":"Dag name:datajud_dag","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:25.797367Z","level":"info","event":"Iniciando extração dos dados do DataJud","logger":"root","filename":"extract_dados.py","lineno":37}
+{"timestamp":"2026-08-30T21:34:26.317797Z","level":"info","event":"Extração concluída. Dados salvos em data/datajud_dados.json","logger":"root","filename":"extract_dados.py","lineno":70}
+{"timestamp":"2026-08-30T21:34:26.323102Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-08-30T21:34:26.370181Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:26.370392Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-08-30T21:34:26.371168Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): extract_data_task>","logger":"task.stdout"}

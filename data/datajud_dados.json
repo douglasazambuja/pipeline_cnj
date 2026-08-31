@@ -1,0 +1,324 @@
+{
+    "took": 1032,
+    "timed_out": false,
+    "_shards": {
+        "total": 7,
+        "successful": 7,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 10000,
+            "relation": "gte"
+        },
+        "max_score": 1.0,
+        "hits": [
+            {
+                "_index": "api_publica_trf1",
+                "_id": "TRF1_G2_10610641720234013300",
+                "_score": 1.0,
+                "_source": {
+                    "id": "TRF1_G2_10610641720234013300",
+                    "tribunal": "TRF1",
+                    "grau": "G2",
+                    "numeroProcesso": "10610641720234013300",
+                    "dataAjuizamento": "20251122184729",
+                    "nivelSigilo": 0,
+                    "orgaoJulgador": {
+                        "codigo": 86430,
+                        "nome": "Gabinete 32",
+                        "codigoMunicipioIBGE": 743
+                    },
+                    "classe": {
+                        "codigo": 198,
+                        "nome": "Apela\u00e7\u00e3o C\u00edvel"
+                    },
+                    "sistema": {
+                        "codigo": 1,
+                        "nome": "PJe"
+                    },
+                    "formato": {
+                        "codigo": 1,
+                        "nome": "Eletr\u00f4nico"
+                    },
+                    "dataHoraUltimaAtualizacao": "2026-08-21T02:42:44.479000Z",
+                    "@timestamp": "2026-08-21T02:42:44.479000Z",
+                    "movimentos": [
+                        {
+                            "codigo": 26,
+                            "dataHora": "2025-11-22T18:47:30.000Z",
+                            "nome": "Distribui\u00e7\u00e3o",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 2,
+                                    "descricao": "tipo_de_distribuicao_redistribuicao",
+                                    "valor": 2,
+                                    "nome": "sorteio"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "67820",
+                                "nome": "Gabinete 17"
+                            }
+                        },
+                        {
+                            "codigo": 581,
+                            "dataHora": "2025-11-22T18:47:31.000Z",
+                            "nome": "Documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 107,
+                                    "nome": "Certid\u00e3o"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "67820",
+                                "nome": "Gabinete 17"
+                            }
+                        },
+                        {
+                            "codigo": 981,
+                            "dataHora": "2025-11-22T18:47:31.000Z",
+                            "nome": "Recebimento",
+                            "orgaoJulgador": {
+                                "codigo": "67820",
+                                "nome": "Gabinete 17"
+                            }
+                        },
+                        {
+                            "codigo": 132,
+                            "dataHora": "2025-11-22T18:47:32.000Z",
+                            "nome": "Recebimento",
+                            "orgaoJulgador": {
+                                "codigo": "67820",
+                                "nome": "Gabinete 17"
+                            }
+                        },
+                        {
+                            "codigo": 581,
+                            "dataHora": "2025-11-26T17:50:03.000Z",
+                            "nome": "Documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "67820",
+                                "nome": "Gabinete 17"
+                            }
+                        },
+                        {
+                            "codigo": 982,
+                            "dataHora": "2025-11-26T18:08:27.000Z",
+                            "nome": "Remessa",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 18,
+                                    "descricao": "motivo_da_remessa",
+                                    "valor": 37,
+                                    "nome": "em dilig\u00eancia"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 36,
+                            "dataHora": "2025-11-26T18:08:28.000Z",
+                            "nome": "Redistribui\u00e7\u00e3o",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 2,
+                                    "descricao": "tipo_de_distribuicao_redistribuicao",
+                                    "valor": 3,
+                                    "nome": "preven\u00e7\u00e3o"
+                                },
+                                {
+                                    "codigo": 17,
+                                    "descricao": "motivo_da_redistribuicao",
+                                    "valor": 0,
+                                    "nome": "Inv\u00e1lido"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2025-11-27T19:48:28.000Z",
+                            "nome": "Expedi\u00e7\u00e3o de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 12265,
+                            "dataHora": "2025-11-27T19:48:28.000Z",
+                            "nome": "Expedida/certificada",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2025-12-02T19:14:51.000Z",
+                            "nome": "Conclus\u00e3o",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 6,
+                                    "nome": "para decis\u00e3o"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2025-12-02T19:14:52.000Z",
+                            "nome": "Peti\u00e7\u00e3o",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Peti\u00e7\u00e3o (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 12116,
+                            "dataHora": "2026-07-16T18:29:23.000Z",
+                            "nome": "Para julgamento de m\u00e9rito",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2026-07-16T18:30:23.000Z",
+                            "nome": "Expedi\u00e7\u00e3o de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2026-07-16T18:43:29.000Z",
+                            "nome": "Expedi\u00e7\u00e3o de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 1061,
+                            "dataHora": "2026-07-18T00:13:15.000Z",
+                            "nome": "Disponibiliza\u00e7\u00e3o no Di\u00e1rio da Justi\u00e7a Eletr\u00f4nico",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 92,
+                            "dataHora": "2026-07-20T00:11:47.000Z",
+                            "nome": "Publica\u00e7\u00e3o",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2026-08-17T17:14:52.000Z",
+                            "nome": "Peti\u00e7\u00e3o",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Peti\u00e7\u00e3o (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 12200,
+                            "dataHora": "2026-08-17T17:18:28.000Z",
+                            "nome": "M\u00e9rito",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        },
+                        {
+                            "codigo": 239,
+                            "dataHora": "2026-08-19T12:29:03.000Z",
+                            "nome": "N\u00e3o-Provimento",
+                            "orgaoJulgador": {
+                                "codigo": "86430",
+                                "nome": "Gabinete 32"
+                            }
+                        }
+                    ],
+                    "assuntos": [
+                        {
+                            "codigo": 12495,
+                            "nome": "N\u00e3o padronizado"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
